@@ -1,0 +1,51 @@
+h1{
+    color: rgb(65, 63, 63);
+    font-size: 45px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.banner-wraps {
+    background-image: url('Peeling-Estetico-Facial-Nanotecnologia.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+    text-align: center;
+}
+
+.banner-wraps p{
+    color: rgb(65, 63, 63);
+    font-size: 24px;
+    opacity: initial;
+}
+
+body{
+    margin: 0;
+}
+
+.cards-wrap{
+    width: 860px;
+    margin: 60px auto;
+}
+.cards-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card{
+    background-color: white;
+    box-shadow: 0 0 16px;
+    border-radius: 4px rgba(0,0,0,0,1);
+    padding: 24px;
+    margin: 0px 20px;
+}
+
+.card p{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
